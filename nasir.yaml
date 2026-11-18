@@ -1,0 +1,7 @@
+---
+- name: nasir
+  gather_facts: no
+  vars:
+   user: humayun
+  tasks:
+
