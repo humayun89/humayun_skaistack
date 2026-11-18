@@ -4,4 +4,8 @@
   vars:
    user: humayun
   tasks:
-
+    - name: Creating user {{ user }}
+      ansible.builtin.user:
+      name: "{{ user }}"
+      comment: "{{ user }}@aol.com"
+      state: present
