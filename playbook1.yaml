@@ -2,4 +2,8 @@
 - name: Create users playbook
   hosts: nasir
   gather_facts: no 
-  tasks: 
+  tasks:
+    - name: adding user
+      ansible.builtin.user:
+        name: adding user
+        state: present  
