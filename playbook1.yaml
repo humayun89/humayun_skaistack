@@ -1,2 +1,5 @@
 ---
 - name: Create users playbook
+  hosts: nasir
+  gather_facts: no 
+  tasks: 
